@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Comfortaa|Barrio|Passion+One|Patua+One|Righteous');
+body{
+  background-color: #B8F2E6;
+  background-image: url('../img/restaurant_icons.png') !important;
+  background-repeat: repeat !important;
+}
+
+.maniNav{
+  background-color: #3C4A6C;
+  border-color: #3C4A6C;
+}
+
+.brandName{
+  font-size: 3em;
+  /*color: #FB655E !important;*/
+  color: #fff !important;
+  font-weight: bolder;
+  font-family: 'Barrio', cursive;;
+}
+
+.center-align{
+  text-align: center;
+}
+
+.capitalize{
+  text-transform: uppercase;
+}
+
+.srch_btn{
+  background-color: #5C98FF;
+  color: #fff;
+}
+
+.outerRest{
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    /* min-width: 460px; */
+    /* max-width: 500px; */
+    background-color: #fff;
+    padding: 0;
+    margin: 20px 0;
+    font-family:'Comfortaa',sans-serif;
+}
+
+.upperDivInline{
+  display: inline-flex;
+}
+
+.lowerDivFlex{
+  height: 30px;
+  margin-top: 10px;
+}
+.bookingBtn{
+
+}
+
+.eventBtn{
+
+}
+
+.bookingBtn, 
+.eventBtn{
+  width:200px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border:1px solid #eee;
+
+
+}
+
+.bookingBtn:hover, 
+.eventBtn:hover{
+  text-decoration: none;
+}
+
+
+
+
+
+.headerhead{
+font-family: 'Patua One', cursive;
+font-size: 26px;
+}
+
+.outerRest .imgPart{
+  display: inline;
+max-height: 400px;
+padding: 0;
+}
+
+.imgPart img{
+  width: 175px;
+    height: 170px;
+    padding: 5px 5px;
+}
+
+.outerRest .restaurant-details{
+
+  padding: 0;
+}
+
+#detailContainer{
+  display: inline-flex;
+    display: none;
+}
+
+#dvMap{
+  max-width: 810px;
+    min-height: 500px;
+  margin: 35px 0;
+}
+
+#mapSection{
+  margin: 0;
+}
+
+.restaurant-details .rating{
+  font-family:'Comfortaa',sans-serif;
+  color: #636363;
+  font-size: 12px;
+}
+
+.restaurant-details .nameRest{
+  font-size: 24px;
+  margin-top: 0px;
+  font-weight: 100;
+  color: #FB655E;
+  font-family: 'Passion One', cursive;
+}
+
+.restaurant-details .addressRest{
+  font-family:'Comfortaa',sans-serif;
+}
+
+.restaurant-details .cuisine{
+  font-family:'Comfortaa',sans-serif;
+  color: #636363;
+  font-size: 12px;
+}
+
+.restaurant-details .priceRange {
+  font-family:'Comfortaa',sans-serif;
+  color: #636363;
+  font-size: 12px;
+}
+
+
+#location{
+  height: 50px;
+  font-family: 'Comfortaa',sans-serif;
+}
+
+#searchLocation{
+  height: 50px;
+  font-size: 2rem;
+  font-family: 'Comfortaa',sans-serif;
+}
+
+.searchPart{
+
+}
+
+.searchPart .headertag{
+  font-family: 'Patua One', cursive;
+  font-size: 2.5em;
+}
+
+
+.searchPart p{
+  font-size: 18px;
+  font-family: 'Comfortaa',sans-serif;
+}
+
+.jumbotron{
+  padding-top: 140px;
+  background-image: url('../img/food.png') !important;
+  background-repeat: repeat !important;
+  transform: scale(1);
+  transition: 0.15s all ease;
+}
+
+
+.restaName{
+    overflow-y: scroll;
+    height: 575px;
+}
+
+#spinner{
+  display: none;
+  width: 60px;
+  margin: 10% auto;
+}

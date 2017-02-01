@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Eat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top maniNav">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand brandName" href="#">FIND EAT</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+
+  </div>
+</nav>
+      <div class="jumbotron" id="jumbo">
+          <div class="center-align searchPart">
+              <h2 class="headertag capitalize">Find your food</h2>
+              <p>Get top rated restaurants near you</p>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="input-group">
+                <input type="text" class="form-control" id="location">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-group-lg srch_btn" id="searchLocation"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-12 col-sm-12" id="detailContainer">
+        <!-- <div class="row"> -->
+          <!-- <div class="mainContainer"> -->
+            <div class="col-md-6 col-sm-12" id="mapSection">
+                <h4 class="headerhead">Map</h4>
+                <div id="dvMap"></div>
+            </div>
+            <div class="col-md-6 col-sm-12 restaName">
+              <h4 class="headerhead">Restaurants</h4>
+              <img src="img/loading.gif" id="spinner">
+              <div id="detailSection">
+
+              </div>
+
+            </div>
+          <!-- </div> -->
+        <!-- </div> -->
+
+      </div>
+
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGTG2l9aMFGniGTRn5PU8pVp2KkFI7NN8&v=3.exp&libraries=places"></script>
+      <script type="text/javascript" src="js/main.js" ></script>
+  </body>
+</html>

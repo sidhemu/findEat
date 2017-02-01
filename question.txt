@@ -1,0 +1,15 @@
+# Frontend Assignment
+
+
+- Make a restaurant finder using zomato and google Maps API
+- The UI should accept the location of the User as input, you should provide options for taking the location of the user or a text input
+- Zomato provides api for the best restaurants around based on location
+- The restaurants location should be overlayed on top of Google Maps along with the users location'
+- Rest of the UI is up to you. But should provide basic info like
+- Cuisine
+- Price Range
+- Some Pics
+- Online Delivery?
+- Booking URL etc
+- Reviews/Ratings
+- Feel free to improvise as much on the UI as you want
